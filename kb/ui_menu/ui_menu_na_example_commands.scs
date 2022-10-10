@@ -1,0 +1,17 @@
+ui_menu_na_example_commands
+<- ui_user_command_class_noatom;
+=> nrel_main_idtf:
+	[Наши агенты] (* <- lang_ru;; *);
+	[Our agents] (* <- lang_en;; *);
+
+<= nrel_ui_commands_decomposition:
+	{
+		ui_menu_subdividing_search;
+		ui_menu_isomorphic_search;
+        ui_menu_define_number_of_characters_in_books;
+        ui_menu_define_number_of_events_in_books;
+        ui_menu_define_top_10_books_by_size;
+        ui_menu_search_authors_genres;
+        ui_menu_search_author_by_genres;
+        ui_menu_search_similar_authors
+	};;
